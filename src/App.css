@@ -12,6 +12,41 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.black-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  opacity: 0.8;
+  background: #4fc3f7;
+}
+.logo {
+  font-size: 24px;   /* 기본 h4보다 크게 */
+  font-weight: 700;  /* 조금 더 굵게 */
+  
+}
+.main-image img{
+  width: 700px;
+  border-radius: 12px;
+  height: 450px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  opacity: 0.85;
+  
+}
+.image-wrapper {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 24px;
+  overflow: hidden;     /* ⭐ 핵심 */
+}
+
+.image-wrapper img {
+  width: 100%;
+  display: block;       /* ⭐ 핵심 */
+  object-fit: cover;
+}
+
 
 .App-header {
   background-color: #282c34;
